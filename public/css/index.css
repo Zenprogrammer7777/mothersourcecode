@@ -1,0 +1,62 @@
+.vertical-menu {
+    width: 23rem; /* Set a width if you like */
+    margin: -17rem;
+    overflow-y: auto;
+    height: 34rem;
+  }
+  
+  .vertical-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+  }
+  
+  .vertical-menu a.active {
+    background-color: #04AA6D; /* Add a green color to the "active/current" link */
+    color: white;
+  }
+
+#header-icon-container {
+    width: 2rem;
+    margin: 0;
+    display: block;
+}
+
+#header-title {
+    width: 14rem;
+    display: block;
+}
+
+#header {
+    flex: auto;
+}
+
+#icon {
+    width: 2rem;
+}
+
+
+#view {
+    background-color: black;
+    padding: 16.5rem;
+    display: block;
+}
+
+#menu {
+
+}
+
+#menu-items {
+    list-style: none;
+}
+
+.menu-item {
+    font-size: 2.5rem;
+    margin: 0 1.85rem;
+}
